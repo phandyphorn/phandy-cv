@@ -1,3 +1,122 @@
-body {
-    background: chartreuse;
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Signika+Negative&display=swap');
+* {
+    padding:  0px;
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+/* style for uper-page */
+
+.uper-page {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+h2 {
+    color: #fff;
+    padding: 10px;
+    margin: 0px 20px;
+    font-weight: bold;
+    
+}
+.left-part {
+    background: red;
+    width: 100%;
+}
+.icons {
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.round-icon {
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.right-part {
+    background-image: url(/images/exam.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.btndownload {
+    background: red;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 30px;
+    border: none;
+}
+
+/* menu */
+.profile {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: #fff;
+    margin: 5px 28px;
+    
+}
+.navbar {
+    background: #4FD5D6;
+    display: flex;
+    
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.active {
+    color: red;
+}
+.describtion-contain {
+    background-image: url(/images/exam.jpeg);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.describtion {
+   padding: 10px;
+   background: #4fd6d65e;
+   color: white;
+   height: 34vh;
+   
+}
+p {
+    width: 50%;
+    margin: 0 20px;
+}
+.btn {
+    background: red;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    margin: 20px 90px;
 }

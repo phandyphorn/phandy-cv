@@ -483,8 +483,14 @@ button:hover {
         height: 250px;
         margin-top: 0px;
     }
-    .describtion {
+    .describtion p {
         font-size: small;
+        height: 38vh;
     }
+    .photo img {
+        width: 150px;
+        height: 100px;
+    }
+
 }
 

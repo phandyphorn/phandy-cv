@@ -290,7 +290,6 @@ footer {
     gap: 5px;
 }
 
-
 .content-of-experience {
     background: #4FD5D6;
     padding: 10px;
@@ -484,6 +483,8 @@ button:hover {
         height: 250px;
         margin-top: 0px;
     }
-    
+    .describtion {
+        font-size: small;
+    }
 }
 

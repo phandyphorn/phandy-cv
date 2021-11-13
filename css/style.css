@@ -487,11 +487,11 @@ button:hover {
         font-size: small;
     }
     .describtion {
-        height: 40vh;
+        height: 38vh;
     }
     .photo img {
-        width: 150px;
-        height: 100px;
+        width: 300px;
+        height: 200px;
     }
 
 }

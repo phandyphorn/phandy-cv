@@ -485,7 +485,9 @@ button:hover {
     }
     .describtion p {
         font-size: small;
-        height: 38vh;
+    }
+    .describtion {
+        height: 40vh;
     }
     .photo img {
         width: 150px;

@@ -164,7 +164,10 @@ h3 {
     justify-content: center;
     align-items: center;
     
-    
+}
+.photo img {
+    width: 200px;
+    height: 40vh;
 }
 
 
@@ -183,11 +186,10 @@ h3 {
 .photo {
     text-align: center;
 }
-.photo img {
-    border-radius: 10px;
-    height: 50vh;
-}
-iframe {
+
+iframe ,
+.photo img 
+{
     width: 200px;
     height: 52vh;
     border-radius: 10px;
@@ -299,8 +301,18 @@ footer {
     display: flex;
     padding: 4px;
 }
+
+.onepic-onetext img {
+    width: 80px;
+    height: 60px;
+}
+
+.two-image img {
+    width: 125px;
+    height: 90px;
+}
 span {
-    padding: 20px;
+    padding: 30px;
 }
 .background-exam {
     margin-top: 10px;
@@ -462,7 +474,21 @@ button:hover {
         height: 280px;
         margin-top: 0px;
     }
-    
+    iframe ,
+    .photo img 
+    {
+        width: 300px;
+        height: 70vh;
+       
+    }
+    .onepic-onetext img {
+        width: 100px;
+        height: 70px;
+    }
+    .two-image img {
+        width: 290px;
+        height: 200px;
+    }
     
 }
 
@@ -489,7 +515,23 @@ button:hover {
     .describtion p {
         font-size: small;
     }
-    
+    .whole-page-container {
+        padding: 0px;
+    }
+    iframe, 
+    .photo img 
+    {
+        width: 350px;
+        height: 80vh;
+    }
+
+    .two-image img {
+        width: 180px;
+        height: 90px;
+    }
+    span, p{
+        font-size: small;
+    }
 
 }
 

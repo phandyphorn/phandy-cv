@@ -521,12 +521,12 @@ button:hover {
     iframe, 
     .photo img 
     {
-        width: 350px;
+        width: 330px;
         height: 80vh;
     }
 
     .two-image img {
-        width: 180px;
+        width: 170px;
         height: 90px;
     }
     span, p{

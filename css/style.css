@@ -489,7 +489,9 @@ button:hover {
         width: 290px;
         height: 200px;
     }
-    
+    .describtion p {
+        font-size: small;
+    }
 }
 
 @media (max-width: 414px) {
@@ -512,9 +514,7 @@ button:hover {
         height: 250px;
         margin-top: 0px;
     }
-    .describtion p {
-        font-size: small;
-    }
+    
     .whole-page-container {
         padding: 0px;
     }
@@ -529,9 +529,7 @@ button:hover {
         width: 160px;
         height: 90px;
     }
-    span, p{
-        font-size: small;
-    }
+    
 
 }
 
